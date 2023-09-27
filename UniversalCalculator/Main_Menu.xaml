@@ -13,8 +13,8 @@
 		<TextBlock x:Name="universalCalculatorTextBlock" HorizontalAlignment="Left" Margin="401,66,0,0" Text="Universal Calculator" TextWrapping="Wrap" VerticalAlignment="Top" Height="147" Width="906" FontSize="80"/>
 		<Button x:Name="mathsCalculatorButton" Content="Maths Calculator" Margin="0,335,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40" Click="mathsCalculatorButton_Click"/>
 		<Button x:Name="mortgageCalculatorButton" Content="Mortgage Calculator" Margin="0,500,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40" Click="mortgageCalculatorButton_Click"/>
-		<Button x:Name="currencyConverterButton" Content="Currency Converter" Margin="0,672,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40"/>
-		<Button x:Name="exitButtonMainMenu" Content="Exit" Margin="0,842,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40"/>
+		<Button x:Name="currencyConverterButton" Content="Currency Converter" Margin="0,672,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40" Click="currencyConverterButton_Click"/>
+		<Button x:Name="exitButtonMainMenu" Content="Exit" Margin="0,842,0,0" VerticalAlignment="Top" Height="118" Width="413" HorizontalAlignment="Center" FontSize="40" Click="exitButtonMainMenu_Click"/>
 		<Image x:Name="abacus" HorizontalAlignment="Left" Height="293" Margin="1175,66,0,0" VerticalAlignment="Top" Width="295" Source="/Resources/abacus.PNG" RenderTransformOrigin="0.661,0.196"/>
 	</Grid>
 </Page>
